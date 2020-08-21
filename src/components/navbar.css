@@ -1,0 +1,25 @@
+.navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+}
+.navbar-logo {
+    color: #fff;
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: #fff;
+}
+.nav-item:hover {
+    background-color: rgb(58, 58, 184);
+}
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}

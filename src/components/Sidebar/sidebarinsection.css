@@ -1,0 +1,39 @@
+.sidebar-dropdown {
+    background-color: #fff;
+    width: 250px;
+    margin: 0 -25px;
+    padding: 0 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.dropdown-body {
+    width: 250px;
+    margin: 0 -25px;
+    padding: 10px 25px;
+    min-height: 200px;
+    background-color: #fff;
+}
+.dropdown-item {
+    padding: 13px 25px;
+    margin: 0 -15px;
+    transition: .3s;
+}
+.dropdown-item:hover {
+    background-color: rgb(194, 225, 255);
+}
+.dropdown-search {
+    padding: 20px 0;
+}   
+.dropdown-item-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

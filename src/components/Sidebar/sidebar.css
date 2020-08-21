@@ -1,0 +1,22 @@
+.sidebar-nav-item {
+    border-radius: 2px;
+    width: 250px;
+    transform: translate(-25px, 0);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.sidebar-nav-item:hover {
+    background-color: rgb(130, 216, 238);
+}
+.sidebar-item-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 13px 25px;
+}
+.sidebar-navigation {
+    margin-bottom: 40px;
+}

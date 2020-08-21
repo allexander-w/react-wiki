@@ -1,13 +1,128 @@
+@import './views/signin.css';
+@import './views/account.css';
+@import './views/insection.css';
+@import './views/profile.css';
+@import './components/navbar.css';
+@import './components/Sidebar/sidebarinsection.css';
+@import './components/loader.css';
+@import './components/Sidebar/sidebar.css';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul, li {
+  list-style: none;
+}
+
+
+
+.main-title {
+  font-size: 22px;
+  font-weight: normal;
+}
+.sidebar-title {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.navbar {
+  background-color: blue;
+  height: 100vh;
+}
+.auth-navbar {
+  background-color: blue;
+  height: 100vh;
+}
+.sidebar {
+  background-color: rgb(194, 222, 235);
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.sidebar-content {
+  position: absolute;
+  padding: 50px;
+}
+h2,h1 {
+  margin-bottom: 700px;
+}
+.auth-content-inner {
+  padding: 50px;
+}
+.logotype {
+  padding: 23px
+}
+.blue-button {
+  border-radius: 2px;
+  background-color: #0e65dd;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: .5s;
+  height: 52px;
+  padding: 0 5px;
+  min-width: 200px;
+  font-size: 1.4rem;
+}
+
+.blue-button:hover {
+  background-color: #0d58c0;
+}
+.content {
+  background-color: #fff;
+  position: relative;
+  overflow-y: auto;
+}
+.auth-content {
+  background-color: #fff;
+  position: relative;
+  overflow-y: auto;
+}
+.content-inner {
+  position: absolute;
+  width: 100%;
+  padding: 50px;
+}
+
+.logo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button {
+  height: 40px;
+}
+.main-layout {
+  display: grid;
+}
+.with-sidebar {
+  grid-template-columns: 80px 300px auto;
+}
+.without-sidebar {
+  grid-template-columns: 80px auto;
+}
+.auth-layout {
+  display: grid;
+  grid-template-columns: 80px auto;
+}
+.hide-sidebar {
+  display: none;
 }

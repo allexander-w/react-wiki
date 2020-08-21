@@ -1,0 +1,30 @@
+.author-name {
+    margin-right: 20px;
+}
+.insection-child {
+    cursor: pointer;
+    height: 50px;
+    border-radius: 3px;
+    margin: 0 -25px;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+
+}
+.insection-child:hover {
+    background-color: rgb(91, 166, 236);
+}
+.insection-section-name {
+    padding: 0 25px;
+    display: flex;
+    
+}
+.section-info {
+    font-size: 12px;
+}
+.about-section{
+    margin-bottom: 40px;
+}
+.sections-children {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+.account {
+    background-color: #f1f6fd;
+    margin: -50px;
+    padding: 50px;
+    min-height: 100vh;
+}
+.account-title {
+    margin-bottom: 40px;
+}
+.company-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.company-item {
+    margin: 0 10px 10px 0;
+    width: 300px;
+    height: 140px;
+    border: 1px solid transparent;
+
+    background-color: #fff;
+    padding: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+.company-item:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+}
+.company-add {
+    background-color: transparent;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
